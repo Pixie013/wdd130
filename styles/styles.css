@@ -14,7 +14,7 @@ h1{
 }
 
 main img{
-    width: 150px;
+    width: 200px;
     height: auto;
     border: 1px solid coral;
     padding: 2px;
@@ -34,7 +34,7 @@ aside {
 }
 
 aside img {
-    width: 200px;
+    width: 400px;
     height: auto;
 }
 

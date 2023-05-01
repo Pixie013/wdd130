@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+    /* Color variables */
+    --primary-color: #ffffff;
+    --secondary-color: #deeeef;
+    --accent-color: #6fc9be;
+    --additional-accent-color: #242038;
+  
+    /* Font variables */
+    --heading-font: 'Open Sans', sans-serif;
+    --paragraph-font: Arial, sans-serif;
+  
+    /* Navigation variables */
+    --nav-bg-color: var(--primary-color);
+    --nav-link-color: var(--secondary-color);
+    --nav-link-hover-color: var(--accent-color);
+    --nav-link-hover-bg-color: var(--additional-accent-color);
+  }
+  
+  /* Global styles */
+  body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Headings */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--additional-accent-color);
+  }
+  
+  /* Header */
+  header {
+    background-color: var(--accent-color);
+    padding: 20px;
+  }
+  
+  /* Paragraphs */
+  p {
+    padding: 10px 0;
+  }
+  
+  /* Navigation */
+  nav {
+    background-color: var(--nav-bg-color);
+    padding: 10px;
+  }
+  
+  nav a {
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav a:hover {
+    color: var(--nav-link-hover-color);
+    background-color: var(--nav-link-hover-bg-color);
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  footer {
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding: 10px;
+    font-size: 0.8em;
+    margin-top: 20px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  

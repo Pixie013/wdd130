@@ -4,7 +4,7 @@ nav{
 }
 
 nav a {
-    color:cornsilk;
+    color:white;
     padding: 10px;
     display: block;
 }
@@ -14,7 +14,7 @@ h1{
 }
 
 main img{
-    width: 500px;
+    width: 200px;
     height: auto;
     border: 1px solid coral;
     padding: 2px;
@@ -28,14 +28,17 @@ p {
 aside {
     width: 20em;
     margin: 1em;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(245, 169, 169, 0.861);
     padding: 1em;
-    background-color: #eee
+    background-color: #feabab
 }
 
 aside img {
-    width: 600px;
+    width: 400px;
     height: auto;
+    border: 1px solid coral;
+    padding: 2px;
+    box-shadow: 0 0 30px 
 }
 
 footer {

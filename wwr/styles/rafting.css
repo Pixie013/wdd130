@@ -18,36 +18,30 @@
   --nav-hover-background-color: var(--accent2-color);
 }
 
-.hero img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
 .hero {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    position: absolute;
+    height: auto; /* or adjust as needed */
+    
   }
   
   .hero-content {
-    position: relative;
-    z-index: 1;
-  }
-  
-  .hero-img {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 0;
+    width:500px;
+    height: auto;
+    text-align: center;
+    color: #fff;
+    
   }
   
-
+  .HappyClient {
+    position: absolute;
+    width:500px;
+    height: auto;
+    text-align: center;
+    color: #fff;
+  }
+  
+  
 .logo img {
   width: 50px;
   height: 50px;

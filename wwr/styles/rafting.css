@@ -24,29 +24,7 @@
     height:auto;
   }
   
-  .hero .content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-align: center;
-  }
   
-  .hero h1 {
-    font-size: 4rem;
-    margin: 0;
-  }
-  
-  .hero article {
-    max-width: 600px;
-    margin: 0 auto;
-    font-size: 1.2rem;
-    line-height: 1.5;
-    margin-top: 20px;
-  }
-
-
 /* styles */
 body {
   font-family: var(--paragraph-font);

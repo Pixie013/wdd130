@@ -1,20 +1,122 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 :root {
-    /* Color variables */
-    --primary-color: #2c3e50;
-    --secondary-color: #ecf0f1;
-    --accent1-color: #3498db;
-    --accent2-color: #e74c3c;
-  
-    /* Font variables */
-    --heading-font: 'Open Sans', sans-serif;
-    --paragraph-font: Arial, sans-serif;
-  
-    /* Navigation variables */
-    --nav-background-color: var(--primary-color);
-    --nav-link-color: var(--secondary-color);
-    --nav-hover-link-color: var(--accent1-color);
-    --nav-hover-background-color: var(--accent2-color);
+  /* Color variables */
+  --primary-color: #2c3e50;
+  --secondary-color: #ecf0f1;
+  --accent1-color: #3498db;
+  --accent2-color: #e74c3c;
+
+  /* Font variables */
+  --heading-font: 'Open Sans', sans-serif;
+  --paragraph-font: Arial, sans-serif;
+
+  /* Navigation variables */
+  --nav-background-color: var(--primary-color);
+  --nav-link-color: var(--secondary-color);
+  --nav-hover-link-color: var(--accent1-color);
+  --nav-hover-background-color: var(--accent2-color);
 }
 
+/* styles */
+body {
+  font-family: var(--paragraph-font);
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: var(--secondary-color);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+/* Header */
+header {
+  background-color: var(--accent1-color);
+  padding: 20px;
+}
+
+/* Paragraphs */
+p {
+  padding: 10px 0;
+}
+
+/* Navigation */
+nav {
+  background-color: var(--nav-background-color);
+  padding: 10px;
+}
+
+nav a,
+nav a:link,
+nav a:visited {
+  color: var(--nav-link-color);
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Footer */
+footer {
+  background-color: var(--primary-color);
+  text-align: center;
+  padding: 10px;
+  font-size: 0.8em;
+  margin-top: 20px;
+  color: var(--secondary-color);
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Hero section */
+.hero {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+
+.hero img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+.hero article {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-top: 20px;
+}

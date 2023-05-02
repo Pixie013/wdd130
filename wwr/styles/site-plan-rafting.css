@@ -18,7 +18,7 @@
   --nav-hover-background-color: var(--accent2-color);
 }
 
-/* Global styles */
+/* styles */
 body {
   font-family: var(--paragraph-font);
   max-width: 960px;

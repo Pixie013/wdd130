@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 :root {
   /* Color variables */
   --primary-color: #2c3e50;
@@ -17,9 +19,14 @@
 }
 
 .hero img {
-    display: block;
-    width: 100%;
-    height:auto;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
 }
 
 /* styles */
@@ -71,6 +78,11 @@ nav a:hover {
 img {
   max-width: 500px;
   height: auto;
+}
+
+.social-media img {
+  width: 30px;
+  height: 30px;
 }
 
 /* Footer */

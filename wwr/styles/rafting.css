@@ -18,103 +18,132 @@
   --nav-hover-background-color: var(--accent2-color);
 }
 
+/* reset */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navigation */
+nav {
+  background-color: var(--nav-background-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--nav-link-color);
+  margin-right: 20px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+  padding: 10px;
+}
+
+nav a.active {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+  padding: 10px;
+}
+
+.logo-container {
+  flex: 1;
+}
+
+.logo-container img {
+  max-width: 150px;
+  height: auto;
+}
+
+.sociallinks img {
+  max-width: 30px;
+  height: auto;
+  margin: 0 10px;
+}
+
+/* Hero */
 .hero {
-  position: relative; /* add this to create a new positioning context for child elements */
+  position: relative;
 }
 
 .hero img {
   display: block;
   width: 100%;
   height: auto;
+  z-index: -1;
 }
 
 .hero-content {
   position: absolute;
-  top: 50%; /* position the hero content at the center of the hero container */
+  top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); /* center the hero content */
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: var(--secondary-color);
 }
 
-/* styles */
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-content article {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.hero-content article img {
+  max-width: 100px;
+  height: auto;
+  float: left;
+  margin: 0 20px 10px 0;
+}
+
+/* Sections */
+section {
+  margin: 50px 0;
+}
+
+section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.images-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.images-container img {
+  max-width: 300px;
+  height: auto;
+  margin: 10px;
+}
+
+/* Text */
 body {
   font-family: var(--paragraph-font);
   max-width: 960px;
   margin: 0 auto;
-  padding: 0; /* remove padding to avoid unwanted space */
-  background-color: var(--secondary-color);
-}
-
-/* Navigation */
-header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: var(--nav-background-color);
-  z-index: 1; /* add this to make the navigation bar appear on top of other elements */
-}
-
-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 50px;
-}
-
-nav a {
-  color: var(--nav-link-color);
-  text-decoration: none;
-  font-weight: bold;
-  text-transform: uppercase;
-  transition: color 0.2s, background-color 0.2s;
-}
-
-nav a.active,
-nav a:hover {
-  color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
-}
-
-/* Headings */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var(--heading-font);
-  color: var(--primary-color);
-}
-
-/* Article */
-article {
-  background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
-  margin-top: 20px; /* add margin to create space between the heading and article */
-}
-
-/* Paragraphs */
-p {
-  padding: 10px 0;
-}
-
-/* Images */
-img {
-  max-width: 500px;
-  height: auto;
-  float: right;
-  margin: 10px;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 /* Footer */
 footer {
   background-color: var(--primary-color);
   text-align: center;
-  padding: 10px;
-  font-size: 0.8em;
-  margin-top: 20px;
-  color: var(--secondary-color);
-}
-
-footer p {
-  margin: 0;
-}
+ 

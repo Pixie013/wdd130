@@ -113,8 +113,8 @@ article {
 
 /*History Section*/
 .Historysec {
-  width:200px auto;
-  height: 0px auto;
+  width:200px ;
+  height: auto;
   
   }
 
@@ -137,8 +137,8 @@ article {
 .Adventuresec{
   
   margin: 0 auto;
-  width:200px auto;
-  height: 0px auto;
+  width:200px ;
+  height: auto;
   
   }
 
@@ -204,7 +204,7 @@ article {
 
 .socialimgf {
   width: 50px;
-  height: 0 auto;
+  height: auto;
   background-color:var(--primary-color) ;
   margin: 15px 15px 15px 15px;
   padding: 10px;
@@ -212,7 +212,7 @@ article {
 
 .socialimgt {
   width: 50px;
-  height: 0 auto;
+  height: auto;
   background-color:var(--primary-color) ;
   margin: 15px 15px 15px 15px;
   padding: 10px;
@@ -220,7 +220,7 @@ article {
 
 .socialimgi {
   width: 50px;
-  height: 0 auto;
+  height: auto;
   background-color:var(--primary-color) ;
   margin: 15px 15px 15px 15px;
   padding: 10px;

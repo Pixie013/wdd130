@@ -141,11 +141,16 @@ article {
   
   }
 
+
+.images_container{
+  display: flex;
+ justify-content: space-evenly;
+}
+
   /*Adventure Pictures*/
   .raft1 {
     width: 290px;
-    height: auto;
-    margin: 15px 15px 15px 15px;
+    margin: 15px;
     color: #3498db
   }
 

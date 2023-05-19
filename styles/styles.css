@@ -76,12 +76,11 @@ main .profile_pic{
     
     max-width: 200px;
     margin-right: 1em;
-    align-items: right;
+    
   }
 
   
   main div p {
-    
     grid-row-end: 1;
     max-width: 200px;
     margin-right: 1em;
@@ -113,7 +112,7 @@ main li {
 
 
 
-aside {
+.aside {
     display: block;
     background-color: cornsilk;
     align-items: ;

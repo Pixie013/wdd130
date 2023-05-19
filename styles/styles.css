@@ -39,7 +39,7 @@ body{
     display:block
 }
 
-header, footer {
+header, .grid, footer {
     max-width: 840pc;
     margin:0 auto;
 }

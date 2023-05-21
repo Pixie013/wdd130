@@ -83,8 +83,6 @@ nav a:hover {
   height: auto;
 }
 
-
-
 .form-container {
   width: 65%;
   margin: 20px auto;
@@ -139,6 +137,52 @@ nav a:hover {
   background-color: #45a049;
 }
 
+.Adventuresec h2 {
+  text-align: center;
+  justify-content: center;
+  margin: 20px 20px 20px 20px;
+}
+
+.Adventuresec .images_container {
+  display: flex;
+  justify-content: space-around;
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+.raft1 {
+  width: 290px;
+  margin: 15px 15px 15px 15px;
+  
+}
+
+.raft2 {
+  width: 290px;
+  height: auto;
+  margin: 15px 15px 15px 15px;
+  color: #3498db
+}
+
+.raft3 {
+  width: 290px;
+  height: auto;
+  margin: 15px 15px 15px 15px;
+  color: #3498db
+}
+
+.raft4 {
+  width: 290px;
+  height: auto;
+  margin: 15px 15px 15px 15px;
+  color: #3498db
+}
+
+.raft5 {
+  width: 290px;
+  height: auto;
+  margin: 15px 15px 15px 15px;
+  color: #3498db
+}
 
 .footer{
     display: flex;

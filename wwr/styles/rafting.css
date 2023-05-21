@@ -22,24 +22,38 @@
   max-width: 800px;
 }
 
+/*All big heading */
+h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+  }
+
+
+
 .logo-container {
-  height: 100px ;
+  height: 70px ;
   background-color:var(--primary-color) ;
+  display: flex;
+  align-content: center;
+  
 }
 
 /*Logo Image */
 .logo {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  margin: 5px 0px 0px 5px;
-  background-color:var(--primary-color) ;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 25px 10px 10px 15px;
+    background-color:var(--primary-color) ;
   }
 
 /*Navigations*/
 nav {
   background-color: var(--nav-background-color);
   font-family: var(--heading-font);
+  text-align: center;
+  padding-bottom: 50px;
+  
 }
 
 nav a,
@@ -55,103 +69,119 @@ nav a:hover {
   background-color: var(--nav-hover-background-color);
 }
 
-/*First Imgage*/
 .hero {
-  position: relative;
-  width:100%;
-  height: auto;
-  
-  }
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 600px;
+    padding: 20px;
+}
 
-/*Rafting Company Heading*/
-.hero img {
-  display: block;
-  height: auto;
-  width: 100%;
-  object-fit: cover;
+.heropic {
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
 }
 
 .hero h1 {
-  position: absolute;
-  text-align: center;  
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  font-family: var(--heading-font);
-  color: var(--secondary-color);
-  background-color: black;
-  opacity: 60%;
+    text-align: center;  
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+    background-color: black;
+    opacity: 60%;
+    }
+
+.hero article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0px;
+    bottom: 20px;
+    width: 100%;
+    margin-left: auto;
+      
 }
 
-article {
-  position: absolute ;
-  display: flex;
-  top: 10%;
-  left: 8%;
-  background-color: #eee;
-  width: 80%;
-  height: 60%;
-	border: 1px solid rgba(0,0,0,.1);
-  opacity: 0.9;
+.hero article {
+    
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+    background-color: black;
+    opacity: 65%;
 }
 
-
-/*Under Rafting Junkie*/
 .clientimg {
-  float: left;
-  margin: 15px 15px 15px 15px;
-	border: 1px solid #000;
-  
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+    justify-content: center;
 }
 
-.clientP{
-  font-family: var(--heading-font);
-  color: var(--primary-color);
-  text-align: justify;
-  margin: 15px 15px 15px 15px;
+.clientP {
+    text-align: center;
+    justify-content: center;
+    margin: 20px 20px 20px 20px;
 }
 
-/*History Section*/
+
 .Historysec {
-  width:800px ;
-  height: auto;
-  
-  }
-
-
-/*All big heading */
- h2, h3, h4, h5, h6 {
-  font-family: var(--heading-font);
-  color: var(--primary-color);
+    display: flex;
+    justify-content: space-evenly;
 }
 
-/*History*/
-.historyP{
-  font-family: var(--heading-font);
-  color: var(--primary-color);
-  max-width: 960px;
-  
+.historyP {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    max-width: 960px;
 }
 
-/*under adventure section*/
-.Adventuresec{
-  margin: 0 auto;
-  width:800px ;
-  height: auto;
-  
-  }
-
-
-.images_container{
-  display: flex;
- justify-content: space-evenly;
+.historyP2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    max-width: 960px;
 }
 
-  /*Adventure Pictures*/
-  .raft1 {
+.historyh2 {
+    text-align: center;
+    justify-content: center;
+    margin: 20px 20px 20px 20px;
+
+}
+
+.Historysec p {
+    text-align: center;
+    justify-content: center;
+    margin: 100px 20px 20px 20px;
+    
+}
+
+.Adventuresec h2 {
+    text-align: center;
+    justify-content: center;
+    margin: 20px 20px 20px 20px;
+}
+
+.Adventuresec .images_container {
+    display: flex;
+    justify-content: space-around;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+.raft1 {
     width: 290px;
-    margin: 15px;
-    color: #3498db
+    margin: 15px 15px 15px 15px;
+    
   }
 
   .raft2 {
@@ -182,45 +212,53 @@ article {
     color: #3498db
   }
 
-/*Social links footer*/
- 
-.Auth{
-  font-family: var(--heading-font);
-  color: var(--primary-color);
-  margin: 0 auto;
-  padding: 10px;
-  background-color: var(--secondary-color)
+.footer{
+    display: flex;
+    
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 10px;
+
 }
 
-.sociallinks {
-  background-color: var(--nav-background-color);
-  padding-top: 50px;
-  padding-bottom: 50px;
-  margin: 10px auto;
+
+  .Auth{
+    position: relative;
+    left: 0;
+    bottom: -125px;
+    text-align: center;
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+  }
   
-  font-family: var(--heading-font)
-}
+  .sociallinks {
+    display: flex;
+    justify-content:end;
+   
+  }
+  
+  .socialimgf {
+    position: relative;
+    width: 50px;
+    height: auto;
+    padding: 25px;
+    margin-right: auto;
+    margin-top: 30px;
+    }
+  
+  .socialimgt {
+    width: 50px;
+    height: auto;
+    padding: 25px;
+    margin-right: auto;
+    margin-top: 30px;
+    }
+  
+  .socialimgi {
+    width: 50px;
+    height: auto;
+    padding: 25px;
+    margin-right: 80px;
+    margin-top: 30px;
+    }
 
-.socialimgf {
-  width: 50px;
-  height: auto;
-  background-color:var(--primary-color) ;
-  margin: 15px 15px 15px 15px;
-  padding: 10px;
-}
-
-.socialimgt {
-  width: 50px;
-  height: auto;
-  background-color:var(--primary-color) ;
-  margin: 15px 15px 15px 15px;
-  padding: 10px;
-}
-
-.socialimgi {
-  width: 50px;
-  height: auto;
-  background-color:var(--primary-color) ;
-  margin: 15px 15px 15px 15px;
-  padding: 10px;
-}

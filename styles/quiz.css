@@ -1,5 +1,17 @@
-h1 {
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+:root {
   
+  /* Font variables */
+  --heading-font: 'Open Sans', sans-serif;
+  --paragraph-font: Arial, sans-serif;
+}
+
+* {
+    font-family: var(--heading-font);
+    font-size: 1rem;
+    font-weight: 700;
+    color: cornflowerblue;
 }
 
 form {

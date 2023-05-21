@@ -139,6 +139,8 @@ nav a:hover {
     justify-content: space-evenly;
 }
 
+
+
 .historyP {
     font-family: var(--heading-font);
     color: var(--primary-color);

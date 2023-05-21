@@ -22,8 +22,38 @@
       <a href="contact.html">Contact Us</a>
     </nav>
   </header>
-  <main>
-    
+       <div>
+        <h1>Contact Us</h1>
+        <section class="form">
+          <form action="/submit-form" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+          
+            <label for="purpose">Purpose of Message:</label>
+            <br>
+            <input type="radio" id="general-inquiry" name="purpose" value="General Inquiry" checked>
+            <label for="general-inquiry">General Inquiry</label>
+            <br>
+            <input type="radio" id="reservation-question" name="purpose" value="Reservation Question">
+            <label for="reservation-question">Reservation Question</label>
+            <br>
+            <input type="radio" id="website-suggestion" name="purpose" value="Website Suggestion">
+            <label for="website-suggestion">Website Suggestion</label>
+            <br>
+          
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+          
+            <input type="checkbox" id="newsletter" name="newsletter" value="subscribe">
+            <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+          
+            <input type="submit" value="Submit">
+          </form>
+        <section/>
+      <div/>
   </main>
   <footer>
     <p class="Auth">&copy; 2023 Rafting Junkie | Created by 🍄 Carol Maxwell 🍄</p>

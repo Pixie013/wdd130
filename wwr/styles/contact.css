@@ -74,6 +74,14 @@ nav a:hover {
   background-color: var(--nav-hover-background-color);
 }
 
+.bigheader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-bottom: medium dotted rgb(222, 223, 233);
+}
+
 .details_container {
   display: flex;
   flex-direction: column;
@@ -126,7 +134,7 @@ nav a:hover {
 
 .form-container button[type="submit"] {
   padding: 10px 20px;
-  background-color: #4CAF50;
+  background-color: #72c0ee;
   color: white;
   border: none;
   border-radius: 4px;
@@ -137,48 +145,48 @@ nav a:hover {
   background-color: #45a049;
 }
 
-.Adventuresec h2 {
+.EmployeeSec h2 {
     text-align: center;
     justify-content: center;
     margin: 20px 20px 20px 20px;
 }
 
-.Adventuresec .images_container {
+.EmployeeSec .images_container {
     display: flex;
     justify-content: space-around;
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
-.raft1 {
-    width: 290px;
+.employ1 {
+    width: 200px;
     margin: 15px 15px 15px 15px;
     
   }
 
-  .raft2 {
-    width: 290px;
+  .employ2 {
+    width: 200px;
     height: auto;
     margin: 15px 15px 15px 15px;
     color: #3498db
   }
 
-  .raft3 {
-    width: 290px;
+  .employ3 {
+    width: 200px;
     height: auto;
     margin: 15px 15px 15px 15px;
     color: #3498db
   }
 
-  .raft4 {
-    width: 290px;
+  .employ4 {
+    width: 200px;
     height: auto;
     margin: 15px 15px 15px 15px;
     color: #3498db
   }
 
-  .raft5 {
-    width: 290px;
+  .employ5 {
+    width: 200px;
     height: auto;
     margin: 15px 15px 15px 15px;
     color: #3498db
@@ -230,6 +238,14 @@ nav a:hover {
     width: 50px;
     height: auto;
     padding: 25px;
-    margin-right: 80px;
+    margin-right: auto;
     margin-top: 30px;
     }
+
+    .mockup {
+      width: 60px;
+      height: auto;
+      padding: 25px;
+      margin-right: 80px;
+      margin-top: 30px;
+      }

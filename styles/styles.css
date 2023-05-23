@@ -81,8 +81,12 @@ main .profile_pic{
     grid-row-end: 1;
     max-width: 200px;
     margin-right: 1em;
-    font-weight: 15px;
-    
+  }
+
+.about_me {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    font-size: large;
 }
 
 main ul {

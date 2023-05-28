@@ -75,7 +75,8 @@ nav a:hover {
   align-items: center;
   text-align: center;
   border-bottom: medium dotted rgb(222, 223, 233);
-}
+  margin-bottom: 0cm;
+  }
 
 .details_container {
   display: flex;
@@ -84,6 +85,12 @@ nav a:hover {
   justify-content: center;
   text-align: center;
   height: auto;
+  
+}
+
+.details_container .h2 {
+  margin-top: -100px;
+  padding: 0;
 }
 
 .form-container {
@@ -170,7 +177,7 @@ nav a:hover {
     font-family: var(--heading-font);
     color: var(--secondary-color);
     background-color: black;
-    opacity: 60%;
+    opacity: 70%;
     }
 
 .hero article {
@@ -189,7 +196,7 @@ nav a:hover {
     font-family: var(--heading-font);
     color: var(--secondary-color);
     background-color: black;
-    opacity: 65%;
+    opacity: 85%;
 }
 
 .clientimg {
@@ -208,9 +215,13 @@ nav a:hover {
 .Historysec {
     display: flex;
     justify-content: space-evenly;
+    
 }
 
-
+.Historysec1 {
+  display: flex;
+  justify-content: space-evenly;
+}
 
 .historyP {
     font-family: var(--heading-font);
@@ -227,7 +238,10 @@ nav a:hover {
 .historyh2 {
     text-align: center;
     justify-content: center;
-    margin: 20px 20px 20px 20px;
+    margin: 45px 20px 20px 20px;
+    font-size: xx-large;
+    font-weight: 500px;
+    color: #0e147e;
 
 }
 
@@ -236,6 +250,15 @@ nav a:hover {
     justify-content: center;
     margin: 100px 20px 20px 20px;
     
+    
+}
+
+.Historysec1 p {
+  text-align: center;
+  justify-content: center;
+  margin: 250px 20px 250px 20px;
+  
+  
 }
 
 .Adventuresec h2 {
@@ -331,6 +354,71 @@ nav a:hover {
     margin: 15px 15px 15px 15px;
     color: #3498db
   }
+
+.Trips {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    border-top: solid blue;
+}
+  .image-container1 {
+    width: 80%;
+    height: auto;
+    margin: 15px 15px 50px 15px;
+    color: #0914ac;
+    font-size: large;
+    font-family: var(--heading-font);
+  }
+ 
+  .image-container1 img {
+    float: left;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin: 10px;
+  }
+  
+  .book-now-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-color: #337ab7;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .package-description {
+    text-align: left;
+  }
+  
+.End-page {
+    width: 80%;
+    height: auto;
+    margin: 100px 15px 50px 15px;
+    color: #0914ac;
+    font-size: xx-large;
+    font-family: var(--heading-font);
+} 
+
+.book-now-button2 {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  margin: 50px  ;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #337ab7;
+  color: #fff;
+  border-radius: 8px;
+}
+
 
 .footer{
     display: flex;

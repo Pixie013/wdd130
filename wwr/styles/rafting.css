@@ -74,8 +74,8 @@ nav a:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
-  border-bottom: medium dotted rgb(222, 223, 233);
   margin-bottom: 0cm;
+  
   }
 
 .details_container {
@@ -88,9 +88,20 @@ nav a:hover {
   
 }
 
-.details_container .h2 {
-  margin-top: -100px;
-  padding: 0;
+.Map {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: auto;
+  
+}
+
+.details_container, .p{
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+   
 }
 
 .form-container {
@@ -114,6 +125,8 @@ nav a:hover {
   display: block;
   margin-bottom: 10px;
   font-weight: bold;
+  font-family: var(--heading-font);
+  color: var(--primary-color);
 }
 
 .form-container input[type="text"],
@@ -144,7 +157,7 @@ nav a:hover {
 }
 
 .form-container button[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: #7085e6;
 }
 
 .hero {
@@ -439,25 +452,28 @@ nav a:hover {
     color: var(--secondary-color);
   }
 
-  .mockup {
-      width: 60px;
-      height: auto;
-      padding: 25px;
-      margin-right: 80px;
-      margin-top: 30px;
-      }
+ 
   
   .sociallinks {
     display: flex;
-    justify-content:end;
-   
+    justify-content:right;
+      
   }
   
+  .mockup {
+    position: relative;
+    width: 50px;
+    height: auto;
+    padding: 15px;
+    margin-right: auto;
+    margin-top: 30px;
+    }
+
   .socialimgf {
     position: relative;
     width: 50px;
     height: auto;
-    padding: 25px;
+    padding: 15px;
     margin-right: auto;
     margin-top: 30px;
     }
@@ -465,7 +481,7 @@ nav a:hover {
   .socialimgt {
     width: 50px;
     height: auto;
-    padding: 25px;
+    padding: 15px;
     margin-right: auto;
     margin-top: 30px;
     }
@@ -473,7 +489,7 @@ nav a:hover {
   .socialimgi {
     width: 50px;
     height: auto;
-    padding: 25px;
+    padding: 15px;
     margin-right: 80px;
     margin-top: 30px;
     }
